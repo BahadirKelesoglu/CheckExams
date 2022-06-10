@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".profileActivity"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="RANK"
+           android:textAlignment="center"
+           android:textSize="50dp"
+           android:textAppearance="@style/ShapeAppearance.Material3.MediumComponent"
+           />
+
+        <EditText
+            android:id="@+id/etentercode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Enter Your Code"
+            ></EditText>
+        <Button
+            android:id="@+id/btnrefresh1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEARCH"
+            android:onClick="refreshrank"
+            ></Button>
+
+
+
+        <ListView
+            android:id="@+id/lvrank"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/tvexam"
+            android:text="1"
+            android:gravity="center_vertical|center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/circle">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:id="@+id/tvexam4"
+            android:text="DOGRU"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:id="@+id/tvexam3"
+            android:text="YANLİS"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:id="@+id/tvexam2"
+            android:text="NET"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            />
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:id="@+id/tvexamtotal"
+            android:text="TOTAL"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/tvexamrankcode"
+            android:text="Code"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

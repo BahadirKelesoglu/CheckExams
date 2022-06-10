@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Total Questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/ettotalquestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Total Questions"
+            android:minHeight="100dp" />
+
+        <TextView
+            android:text="True Questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/ettruequestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter True Questions"
+            android:minHeight="100dp" />
+
+        <TextView
+            android:text="False Questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etfalsequestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter False Questions"
+            android:inputType="textEmailAddress"
+            android:minHeight="100dp" />
+
+        <TextView
+            android:text="Exam Code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etexamcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Question Code is on back of the Exam Paper"
+            android:inputType="textEmailAddress"
+            android:minHeight="100dp" />
+
+        <Button
+            android:id="@+id/btnaddexam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Exam"
+            android:minHeight="50dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
